@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorTheme id="99999" name="Catppuccin Mocha" author="zarchinard">
+	<foreground color="#cdd6f4"/>
+	<background color="#1e1e2e"/>
+	<selectionForeground color="#1e1e2e"/>
+	<selectionBackground color="#f5e0dc"/>
+	<currentLine color="#313244"/>
+	<lineNumber color="#7f849c"/>
+	<searchResultIndication color="#45475a"/>
+	<filteredSearchResultIndication color="#45475a"/>
+	<occurrenceIndication color="#45475a"/>
+	<writeOccurrenceIndication color="#585b70"/>
+	<findScope color="#f5e0dc"/>
+	<sourceHoverBackground color="#1e1e2e"/>
+	<singleLineComment color="#9399b2"/>
+	<multiLineComment color="#9399b2"/>
+	<commentTaskTag color="#9399b2" bold="true"/>
+	<javadoc color="#9399b2"/>
+	<javadocLink color="#a6adc8" underline="true"/>
+	<javadocTag color="#a6adc8" bold="true"/>
+	<javadocKeyword color="#a6adc8"/>
+	<class color="#f9e2af" bold="true"/>
+	<interface color="#f9e2af"/>
+	<method color="#89b4fa" />
+	<methodDeclaration color="#89b4fa" bold="true"/>
+	<bracket color="#9399b2"/>
+	<number color="#fab387"/>
+	<string color="#a6e3a1"/>
+	<operator color="#89dceb"/>
+	<keyword color="#cba6f7" bold="true"/>
+	<annotation color="#f9e2af"/>
+	<staticMethod color="#89b4fa"/>
+	<localVariable color="#cdd6f4"/>
+	<localVariableDeclaration color="#cdd6f4"/>
+	<field color="#f5c2e7"/>
+	<staticField color="#f5c2e7"/>
+	<staticFinalField color="#f5c2e7"/>
+	<deprecatedMember color="#b4befe" strikethrough="true"/>
+	<deletionIndication color="#f5e0dc"/>
+	<enum color="#f9e2af" italic="true"/>
+	<inheritedMethod color="#89b4fa"/>
+	<abstractMethod color="#89b4fa"/>
+	<parameterVariable color="#eba0ac"/>
+	<typeArgument color="#f9e2af"/>
+	<typeParameter color="#f9e2af"/>
+	<constant color="#fab387"/>
+</colorTheme>
