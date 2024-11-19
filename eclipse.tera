@@ -5,51 +5,50 @@ whiskers:
     - flavor
   filename: "catppuccin-{{flavor.identifier}}.xml"
 ---
-{%- set palette = flavor.colors -%}
 <?xml version="1.0" encoding="UTF-8"?>
 <colorTheme id="99999" name="Catppuccin {{ flavor.name }}" author="zarchinard">
-	<foreground color="#{{ palette.text.hex }}"/>
-	<background color="#{{ palette.base.hex }}"/>
-	<selectionForeground color="#{{ palette.base.hex }}"/>
-	<selectionBackground color="#{{ palette.rosewater.hex }}"/>
-	<currentLine color="#{{ palette.surface0.hex }}"/>
-	<lineNumber color="#{{ palette.overlay1.hex }}"/>
-	<searchResultIndication color="#{{ palette.surface1.hex }}"/>
-	<filteredSearchResultIndication color="#{{ palette.surface1.hex }}"/>
-	<occurrenceIndication color="#{{ palette.surface1.hex }}"/>
-	<writeOccurrenceIndication color="#{{ palette.surface2.hex }}"/>
-	<findScope color="#{{ palette.rosewater.hex }}"/>
-	<sourceHoverBackground color="#{{ palette.base.hex }}"/>
-	<singleLineComment color="#{{ palette.overlay2.hex }}"/>
-	<multiLineComment color="#{{ palette.overlay2.hex }}"/>
-	<commentTaskTag color="#{{ palette.overlay2.hex }}" bold="true"/>
-	<javadoc color="#{{ palette.overlay2.hex }}"/>
-	<javadocLink color="#{{ palette.subtext0.hex }}" underline="true"/>
-	<javadocTag color="#{{ palette.subtext0.hex }}" bold="true"/>
-	<javadocKeyword color="#{{ palette.subtext0.hex }}"/>
-	<class color="#{{ palette.yellow.hex }}" bold="true"/>
-	<interface color="#{{ palette.yellow.hex }}"/>
-	<method color="#{{ palette.blue.hex }}" />
-	<methodDeclaration color="#{{ palette.blue.hex }}" bold="true"/>
-	<bracket color="#{{ palette.overlay2.hex }}"/>
-	<number color="#{{ palette.peach.hex }}"/>
-	<string color="#{{ palette.green.hex }}"/>
-	<operator color="#{{ palette.sky.hex }}"/>
-	<keyword color="#{{ palette.mauve.hex }}" bold="true"/>
-	<annotation color="#{{ palette.yellow.hex }}"/>
-	<staticMethod color="#{{ palette.blue.hex }}"/>
-	<localVariable color="#{{ palette.text.hex }}"/>
-	<localVariableDeclaration color="#{{ palette.text.hex }}"/>
-	<field color="#{{ palette.pink.hex }}"/>
-	<staticField color="#{{ palette.pink.hex }}"/>
-	<staticFinalField color="#{{ palette.pink.hex }}"/>
-	<deprecatedMember color="#{{ palette.lavender.hex }}" strikethrough="true"/>
-	<deletionIndication color="#{{ palette.rosewater.hex }}"/>
-	<enum color="#{{ palette.yellow.hex }}" italic="true"/>
-	<inheritedMethod color="#{{ palette.blue.hex }}"/>
-	<abstractMethod color="#{{ palette.blue.hex }}"/>
-	<parameterVariable color="#{{ palette.maroon.hex }}"/>
-	<typeArgument color="#{{ palette.yellow.hex }}"/>
-	<typeParameter color="#{{ palette.yellow.hex }}"/>
-	<constant color="#{{ palette.peach.hex }}"/>
+	<foreground color="#{{ text.hex }}"/>
+	<background color="#{{ base.hex }}"/>
+	<selectionForeground color="#{{ base.hex }}"/>
+	<selectionBackground color="#{{ rosewater.hex }}"/>
+	<currentLine color="#{{ surface0.hex }}"/>
+	<lineNumber color="#{{ overlay1.hex }}"/>
+	<searchResultIndication color="#{{ surface1.hex }}"/>
+	<filteredSearchResultIndication color="#{{ surface1.hex }}"/>
+	<occurrenceIndication color="#{{ surface1.hex }}"/>
+	<writeOccurrenceIndication color="#{{ surface2.hex }}"/>
+	<findScope color="#{{ rosewater.hex }}"/>
+	<sourceHoverBackground color="#{{ base.hex }}"/>
+	<singleLineComment color="#{{ overlay2.hex }}"/>
+	<multiLineComment color="#{{ overlay2.hex }}"/>
+	<commentTaskTag color="#{{ overlay2.hex }}" bold="true"/>
+	<javadoc color="#{{ overlay2.hex }}"/>
+	<javadocLink color="#{{ subtext0.hex }}" underline="true"/>
+	<javadocTag color="#{{ subtext0.hex }}" bold="true"/>
+	<javadocKeyword color="#{{ subtext0.hex }}"/>
+	<class color="#{{ yellow.hex }}" bold="true"/>
+	<interface color="#{{ yellow.hex }}"/>
+	<method color="#{{ blue.hex }}" />
+	<methodDeclaration color="#{{ blue.hex }}" bold="true"/>
+	<bracket color="#{{ overlay2.hex }}"/>
+	<number color="#{{ peach.hex }}"/>
+	<string color="#{{ green.hex }}"/>
+	<operator color="#{{ sky.hex }}"/>
+	<keyword color="#{{ mauve.hex }}" bold="true"/>
+	<annotation color="#{{ yellow.hex }}"/>
+	<staticMethod color="#{{ blue.hex }}"/>
+	<localVariable color="#{{ text.hex }}"/>
+	<localVariableDeclaration color="#{{ text.hex }}"/>
+	<field color="#{{ pink.hex }}"/>
+	<staticField color="#{{ pink.hex }}"/>
+	<staticFinalField color="#{{ pink.hex }}"/>
+	<deprecatedMember color="#{{ lavender.hex }}" strikethrough="true"/>
+	<deletionIndication color="#{{ rosewater.hex }}"/>
+	<enum color="#{{ yellow.hex }}" italic="true"/>
+	<inheritedMethod color="#{{ blue.hex }}"/>
+	<abstractMethod color="#{{ blue.hex }}"/>
+	<parameterVariable color="#{{ maroon.hex }}"/>
+	<typeArgument color="#{{ yellow.hex }}"/>
+	<typeParameter color="#{{ yellow.hex }}"/>
+	<constant color="#{{ peach.hex }}"/>
 </colorTheme>
